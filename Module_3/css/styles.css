@@ -1,0 +1,62 @@
+/********** Base styles **********/
+
+  *{
+    box-sizing: border-box;
+  }
+
+  body{
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+  }
+
+  .navbar-brand h1 { /* Food, LLC*/
+    color: #000;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  #nav-list a {
+    color: #ffffff;
+    font-size: 1.2em;
+    background-color: #000;
+    text-align: center;
+    border: 1px solid #808080;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  #chicken, #beef, #sushi {
+    background-color: #808080;
+    height: 200px;
+    width: 90%;
+    height: 1000px;
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+  #chicken-h3, #beef-h3, #shrimp-h3 {
+    width:100%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto;
+  }
+
+
+  p {
+    float: left;
+    clear: left;
+    padding: 10px;
+    padding-top: 0;
+  }
+  
